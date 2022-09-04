@@ -1,0 +1,33 @@
+.text {
+    color: red;
+    font-size: 35px;
+}
+.bodyClass {
+    background-color: yellow;
+}
+
+input:focus {
+   outline: none;
+}
+
+/* header style */
+
+.flexbox {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav-ul {
+    display: flex;
+}
+.toggle-button {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #fff;
+    font-size: 35px;
+    display: none;
+}

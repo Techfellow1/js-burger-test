@@ -1,0 +1,23 @@
+@media  (max-width: 480px) {
+     .navigation {
+        display: none;
+     }
+     .toggle-button {
+        display: block;
+     }
+     .flexbox {
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .nav-ul {
+        flex-direction: column;
+     }
+     .navigation.active {
+        display: block;
+     }
+}
+    
+    
+ 
+    
+    
